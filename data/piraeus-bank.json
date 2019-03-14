@@ -19,7 +19,7 @@
   ],
   "stateOwned": true,
   "countryHQ": "GR",
-  "countries": ["GR""BG","AL","RS","UA"],
+  "countries": ["GR","BG","AL","RS","UA"],
   "compliance": [
     { 
       "regulation": "PSD2",
@@ -75,7 +75,7 @@
       }]
     },
     {
-      "label": "	PB API General Info",
+      "label": "PB API General Info",
       "type": ["branchLocator","atmLocator","auth"],
       "categories": ["locators","auth"],
       "description": "PB API General allows access to public data, like branch/atm/aps location, iban calculation/validation, etc",
