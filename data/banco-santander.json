@@ -51,18 +51,26 @@
     }
   ],
   "apiStandards": [],
+  "apiAggregators": [
+    "klarna",
+    "salt-edge",
+    "token",
+    "yolt"
+  ],
   "webApplication": true,
   "mobileApps": [
     {
-      "operatingSystem": "ios"
+      "operatingSystem": "ios",
+      "storeUrl": "https://itunes.apple.com/gb/app/santander-mobile-banking/id482973524?mt=8"
     },
     {
-      "operatingSystem": "android"
+      "operatingSystem": "android",
+      "storeUrl": "https://play.google.com/store/apps/details?id=uk.co.santander.santanderUK&hl=en"
     }
   ],
   "stockSymbol": "BME:SAN",
   "investorRelationsUrl": "https://www.santander.com/csgs/Satellite/CFWCSancomQP01/en_GB/Corporate/Investor-Relations.html",
-  "quarterlyReports": [
+  "financialReports": [
     {
       "label": "Q4 2018",
       "date": "2019",

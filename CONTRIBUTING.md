@@ -46,6 +46,7 @@ are the best way to propose changes to the codebase (we use [Github Flow](https:
     "sourceUrl": "https://www.businesswire.com/news/home/20190307005306/en/HSBC-Launches-PSD2-Developer-Portal-Expanded-APIs"
   },
   "developerPortalUrl": "https://developer.hsbc.com/",
+  "apiAccess": "verifiedTpp",
   "apiProducts": [
     {
       "label": "Account Information",
@@ -162,7 +163,7 @@ are the best way to propose changes to the codebase (we use [Github Flow](https:
   ],
 "stockSymbol": "LON:HSBA",
  "investorRelationsUrl": "https://www.hsbc.com/investors/",
- "quarterlyReports": [
+ "financialReports": [
    {
      "label": "Q4 2018",
      "date": "2019-02-19",

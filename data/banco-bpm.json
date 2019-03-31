@@ -24,18 +24,23 @@
   "developerPortalUrl": null,
   "apiProducts": [],
   "apiStandards": [],
+  "apiAggregators": [
+    "klarna"
+  ],
   "webApplication": true,
   "mobileApps": [
     {
-      "operatingSystem": "ios"
+      "operatingSystem": "ios",
+      "storeUrl": "https://itunes.apple.com/it/app/youapp/id739705959?mt=8"
     },
     {
-      "operatingSystem": "android"
+      "operatingSystem": "android",
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.lynxspa.bancopopolare"
     }
   ],
   "stockSymbol": "BIT: BAMI",
   "investorRelationsUrl": "https://www.bancobpm.it/investor-relations/?lang=en",
-  "quarterlyReports": [
+  "financialReports": [
     {
       "label": "Q4 2018",
       "date": "2019-02-06",

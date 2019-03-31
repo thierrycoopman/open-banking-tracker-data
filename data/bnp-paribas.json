@@ -26,6 +26,10 @@
   "openBankProjectUrl": "https://bnpparibas-api.openbankproject.com/",
   "apiProducts": [],
   "apiStandards": [],
+  "apiAggregators": [
+    "klarna",
+    "salt-edge"
+  ],
   "webApplication": true,
   "mobileApps": [
     {
@@ -37,7 +41,7 @@
   ],
   "stockSymbol": "EPA:BNP",
   "investorRelationsUrl": "https://invest.bnpparibas.com/",
-  "quarterlyReports": [
+  "financialReports": [
     {
       "label": "Q4 2018",
       "date": "2019-02-13",
@@ -45,8 +49,8 @@
     }
   ],
   "twitter": "BNPParibas",
-  "crunchbase": "",
-  "github": "",
+  "crunchbase": null,
+  "github": null,
   "fca": "001b000000MfFC6AAN",
   "articles": [
     {

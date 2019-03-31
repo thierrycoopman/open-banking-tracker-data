@@ -93,18 +93,25 @@
     }
   ],
   "apiStandards": [],
+  "apiAggregators": [
+    "klarna",
+    "token",
+    "yolt"
+  ],
   "webApplication": true,
   "mobileApps": [
     {
-      "operatingSystem": "ios"
+      "operatingSystem": "ios",
+      "storeUrl": "https://itunes.apple.com/gb/app/bank-of-scotland-mobile-bank/id485728109?mt=8"
     },
     {
-      "operatingSystem": "android"
+      "operatingSystem": "android",
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.grppl.android.shell.BOS&hl=en"
     }
   ],
   "stockSymbol": "LON:LLOY",
   "investorRelationsUrl": "https://www.lloydsbankinggroup.com/investors/",
-  "quarterlyReports": [
+  "financialReports": [
     {
       "label": "Q4 2018",
       "date": "2019-02-20",

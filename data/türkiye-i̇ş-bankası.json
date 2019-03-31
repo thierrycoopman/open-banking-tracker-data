@@ -29,10 +29,10 @@
   "countries": ["TR"],
   "compliance": [],
   "sandbox": {
-    "status": "unavailable",
+    "status": "available",
     "sourceUrl": null
   },
-  "developerPortalUrl": null,
+  "developerPortalUrl": "https://developer.isbank.com.tr/Pages/home.aspx",
   "apiProducts": [    
     {
       "label": "Campaigns",
@@ -219,7 +219,7 @@
   ],
   "stockSymbol": "IST:ISCTR",
   "investorRelationsUrl": "https://www.isbank.com.tr/EN/about-isbank/investor-relations/Pages/investor-relations.aspx",
-  "quarterlyReports": [
+  "financialReports": [
     {
       "label": "Q4 2018",
       "date": null,

@@ -63,18 +63,23 @@
     }
   ],
   "apiStandards": [],
+  "apiAggregators": [
+    "klarna"
+  ],
   "webApplication": true,
   "mobileApps": [
     {
-      "operatingSystem": "ios"
+      "operatingSystem": "ios",
+      "storeUrl": "https://itunes.apple.com/be/app/belfius-mobile/id572835707?mt=8"
     },
     {
-      "operatingSystem": "android"
+      "operatingSystem": "android",
+      "storeUrl": "https://play.google.com/store/apps/details?id=be.belfius.directmobile.android&hl=en"
     }
   ],
   "stockSymbol": null,
   "investorRelationsUrl": "https://www.belfius.be/about-us/en/investors/reports-presentations",
-  "quarterlyReports": [
+  "financialReports": [
     {
       "label": "Q4 2018",
       "date": "2019-02-22",

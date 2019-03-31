@@ -25,18 +25,24 @@
   "openBankProjectUrl": null,
   "apiProducts": [],
   "apiStandards": [],
+  "apiAggregators": [
+    "klarna",
+    "salt-edge"
+  ],
   "webApplication": true,
   "mobileApps": [
     {
-      "operatingSystem": "ios"
+      "operatingSystem": "ios",
+      "storeUrl": "https://itunes.apple.com/us/app/ma-banque/id376202925?mt=8"
     },
     {
-      "operatingSystem": "android"
+      "operatingSystem": "android",
+      "storeUrl": "https://play.google.com/store/apps/details?id=fr.creditagricole.androidapp&hl=en"
     }
   ],
   "stockSymbol": "EPA:ACA",
   "investorRelationsUrl": "https://www.credit-agricole.com/en/finance/finance",
-  "quarterlyReports": [
+  "financialReports": [
     {
       "label": "Q4 2018",
       "date": "2019-02-14",

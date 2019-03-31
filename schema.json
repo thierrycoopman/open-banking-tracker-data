@@ -53,7 +53,9 @@
           "universal",
           "retail",
           "corperate",
-          "challenger"
+          "challenger",
+          "holding",
+          "privatebank"
         ]
       }
     },
@@ -190,6 +192,32 @@
         }
       ]
     },
+    "apiAggregators": {
+      "anyOf": [
+        {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "klarna",
+              "token",
+              "tink",
+              "ibanity",
+              "figo",
+              "bud",
+              "truelayer",
+              "salt-edge",
+              "nordic-api-gateway",
+              "yolt",
+              "plaid",
+              "yapily"
+            ]
+          }
+      },
+      {
+        "type": "null"
+      }]
+    },
     "openBankProjectUrl": {
       "anyOf": [
         {
@@ -258,6 +286,17 @@
         ]
       }
     },
+    "apiAccess": {
+      "description": "Is the API access limited to verified TPPs only",
+      "anyOf": [
+        {
+          "enum": [
+            "verifiedTpp"
+          ]
+        }, 
+        {"type": "null"}
+      ]
+    },
     "apiProducts": {
       "type": "array",
       "items": {
@@ -301,7 +340,8 @@
               "STET-AISP",
               "STET-CBPII",
               "STET-PISP",
-              "BERLIN1.1"
+              "BERLIN1.1",
+              "BERLIN1.3"
             ]
           },
           "categories": {
@@ -486,7 +526,7 @@
         }
       ]
     },
-    "quarterlyReports": {
+    "financialReports": {
       "type": "array",
       "items": {
         "type": "object",
@@ -503,6 +543,24 @@
             "anyOf": [
               { "type": "string" },
               { "type": "null" }
+            ]
+          },
+          "type": {
+            "anyOf": [
+              { "type": "null" },
+              { 
+                "type": "array",
+                "items": {
+                  "enum": [
+                    "analystPresentation",
+                    "annualReport",
+                    "quarterlyReport",
+                    "quarterlyInvestorPresentation",
+                    "quarterlyPressRelease",
+                    "annualPressRelease"
+                  ]
+                }
+              }
             ]
           },
           "url": {

@@ -115,18 +115,26 @@
     }
   ],
   "apiStandards": [],
+  "apiAggregators": [
+    "klarna",
+    "salt-edge",
+    "token",
+    "yolt"
+  ],
   "webApplication": true,
   "mobileApps": [
     {
-      "operatingSystem": "ios"
+      "operatingSystem": "ios",
+      "storeUrl": "https://itunes.apple.com/be/app/barclays-mobile-banking/id536248734?mt=8"
     },
     {
-      "operatingSystem": "android"
+      "operatingSystem": "android",
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.barclays.android.barclaysmobilebanking&hl=en"
     }
   ],
   "stockSymbol": "LON:BARC",
   "investorRelationsUrl": "https://home.barclays/investor-relations/",
-  "quarterlyReports": [
+  "financialReports": [
     {
       "label": "Q4 2018",
       "date": "2019-02-21",
